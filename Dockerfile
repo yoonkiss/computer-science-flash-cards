@@ -11,7 +11,7 @@ RUN chmod +x /entrypoint.sh
 
 VOLUME /src/db
 
-EXPOSE 8000
+EXPOSE 5000
 CMD ["/entrypoint.sh"]
 
 
